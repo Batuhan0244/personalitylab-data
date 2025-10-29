@@ -140,6 +140,162 @@
           ]
         }
       ]
+    },
+    {
+      "id": "stress_resilience",
+      "emoji": "⚡",
+      "premium": false,
+      "dims": ["calm", "reactive"],
+      "title": {
+        "tr": "Stres Dayanıklılık Testi",
+        "en": "Stress Resilience Test"
+      },
+      "questions": [
+        {
+          "id": "s1",
+          "type": "scenario",
+          "text": {
+            "tr": "Son dakika yetişmesi gereken bir işe geciktin. Tepkin?",
+            "en": "You’re late for something important. Reaction?"
+          },
+          "answers": [
+            { "txt":{"tr":"Hızlıca çözüm üretirim","en":"Quickly find a solution"},"dim":{"calm":2}},
+            { "txt":{"tr":"Panik olurum","en":"I panic"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "statement",
+          "text": {
+            "tr": "Kritik anlarda elim ayağım titrer.",
+            "en": "I get shaky in critical moments."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"calm":2}},
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "scenario",
+          "text": {
+            "tr": "Beklenmeyen bir tartışma çıktığında nasıl davranırsın?",
+            "en": "Unexpected argument — what do you do?"
+          },
+          "answers": [
+            { "txt":{"tr":"Sakin olmaya çalışırım","en":"Try to stay calm"},"dim":{"calm":2}},
+            { "txt":{"tr":"Hemen sinirlenirim","en":"Get angry quickly"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "statement",
+          "text": {
+            "tr": "Zor anlarda başkalarından çabuk etkilenirim.",
+            "en": "Easily influenced under stress."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"calm":2}},
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "scenario",
+          "text": {
+            "tr": "Kendi hatan yüzünden sıkıştığında nasıl hissedersin?",
+            "en": "If stress caused by your own mistake?"
+          },
+          "answers": [
+            { "txt":{"tr":"Durumu toparlarım","en":"Recover the situation"},"dim":{"calm":2}},
+            { "txt":{"tr":"Hata bende diye daha çok gerilirim","en":"Get more tense"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s6",
+          "type": "statement",
+          "text": {
+            "tr": "Büyük kararlar alırken zorlanırım.",
+            "en": "I struggle making major decisions."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"calm":1}},
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"reactive":1}}
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "scenario",
+          "text": {
+            "tr": "Kalabalık ve gürültü seni nasıl etkiler?",
+            "en": "How does noise/crowds affect you?"
+          },
+          "answers": [
+            { "txt":{"tr":"Normal hissederim","en":"It’s OK"},"dim":{"calm":1}},
+            { "txt":{"tr":"Hemen gerilirim","en":"Get stressed"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "statement",
+          "text": {
+            "tr": "Beklenmeyen değişiklikler beni rahatsız eder.",
+            "en": "Unexpected changes bother me."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"calm":1}},
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "scenario",
+          "text": {
+            "tr": "Önemli bir sınav veya görüşme öncesi?",
+            "en": "Before an exam or interview?"
+          },
+          "answers": [
+            { "txt":{"tr":"Toparlayıp odaklanırım","en":"Focus and prepare"},"dim":{"calm":2}},
+            { "txt":{"tr":"Uyuyamam, düşünür dururum","en":"Lose sleep"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "statement",
+          "text": {
+            "tr": "Stresliyken hatalar yaparım.",
+            "en": "I make mistakes when stressed."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"calm":2}},
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "scenario",
+          "text": {
+            "tr": "Bir kriz durumunda çevren seni nasıl tanımlar?",
+            "en": "How do others describe you in crisis?"
+          },
+          "answers": [
+            { "txt":{"tr":"Soğukkanlı biri","en":"Calm person"},"dim":{"calm":2}},
+            { "txt":{"tr":"Hızlı panikleyen biri","en":"Panics quickly"},"dim":{"reactive":2}}
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "statement",
+          "text": {
+            "tr": "Zor anlarda gözyaşlarımı tutamam.",
+            "en": "I cry easily under stress."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"calm":2}},
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"reactive":2}}
+          ]
+        }
+      ]
     }
   ]
 }
