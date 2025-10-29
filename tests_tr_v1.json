@@ -1,1 +1,29 @@
-
+{
+  "version": 1,
+  "tests": [
+    {
+      "id": "stress_profile",
+      "emoji": "😰",
+      "premium": false,
+      "dims": ["calm", "reactive"],
+      "title": {
+        "tr": "Stres Profili",
+        "en": "Stress Profile"
+      },
+      "questions": [
+        {
+          "id": "s1",
+          "type": "scenario",
+          "text": {
+            "tr": "Patron son dakika rapor ister. İlk tepkin?",
+            "en": "Boss asks for a last-minute report. Your first reaction?"
+          },
+          "answers": [
+            { "txt":{"tr":"Sakin plan yaparım","en":"Breathe & plan"},"dim":{"calm":3}},
+            { "txt":{"tr":"Endişelenirim","en":"Get worried"},"dim":{"reactive":2}}
+          ]
+        }
+      ]
+    }
+  ]
+}
