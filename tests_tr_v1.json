@@ -296,6 +296,127 @@
           ]
         }
       ]
+    },
+        ,
+    {
+      "id": "dark_triad",
+      "emoji": "😈",
+      "premium": true,
+      "dims": ["mach", "narc", "psycho"],
+      "title": {
+        "tr": "Karanlık Üçlü Testi (Premium)",
+        "en": "Dark Triad Test (Premium)"
+      },
+      "questions": [
+        {
+          "id": "d1",
+          "type": "statement",
+          "text": {
+            "tr": "İnsanları etkilemek için bazı gerçekleri gizlemek normaldir.",
+            "en": "It's normal to hide some truths to influence people."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"mach":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"mach":0}}
+          ]
+        },
+        {
+          "id": "d2",
+          "type": "statement",
+          "text": {
+            "tr": "Diğer insanlar genellikle benim için bir araçtır.",
+            "en": "Other people are often tools for me."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"mach":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"mach":0}}
+          ]
+        },
+        {
+          "id": "d3",
+          "type": "statement",
+          "text": {
+            "tr": "Manipülasyon iyi bir yetenektir.",
+            "en": "Manipulation is a good skill to have."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"mach":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"mach":0}}
+          ]
+        },
+        {
+          "id": "d4",
+          "type": "statement",
+          "text": {
+            "tr": "Başkalarının bana hayran olması hoşuma gider.",
+            "en": "I love when others admire me."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"narc":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"narc":0}}
+          ]
+        },
+        {
+          "id": "d5",
+          "type": "statement",
+          "text": {
+            "tr": "Özel ve seçilmiş biri olduğuma inanırım.",
+            "en": "I believe I am special and chosen."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"narc":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"narc":0}}
+          ]
+        },
+        {
+          "id": "d6",
+          "type": "statement",
+          "text": {
+            "tr": "Eleştirilmek beni aşırı öfkelendirir.",
+            "en": "Criticism makes me extremely angry."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"narc":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"narc":0}}
+          ]
+        },
+        {
+          "id": "d7",
+          "type": "statement",
+          "text": {
+            "tr": "Birini incitmekten rahatsız olmam.",
+            "en": "I do not feel bad about hurting someone."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"psycho":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"psycho":0}}
+          ]
+        },
+        {
+          "id": "d8",
+          "type": "statement",
+          "text": {
+            "tr": "Bence güçlü olmak için acımasız olmalısın.",
+            "en": "To be powerful, you must be ruthless."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"psycho":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"psycho":0}}
+          ]
+        },
+        {
+          "id": "d9",
+          "type": "statement",
+          "text": {
+            "tr": "Kurallar çoğu zaman beni kısıtlar.",
+            "en": "Rules often restrict me."
+          },
+          "answers": [
+            { "txt":{"tr":"Katılıyorum","en":"Agree"},"dim":{"psycho":2}},
+            { "txt":{"tr":"Katılmıyorum","en":"Disagree"},"dim":{"psycho":0}}
+          ]
+        }
+      ]
     }
   ]
 }
